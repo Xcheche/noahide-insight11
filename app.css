@@ -5,6 +5,7 @@
   overflow: auto;
 }
 
+
 /* Navbar links */
 .navbar a {
   float: left;
@@ -59,7 +60,7 @@ body{
 }
 
 .form{
-    width: 50%;
+width: 50%;
  margin: auto;
 }
 /* Style inputs with type="text", select elements and textareas */
@@ -114,3 +115,20 @@ footer{
   color: white;
 
 }
+
+/* scroll from down */
+  
+  #scroll-to-top {
+    background:skyblue;
+    background-color: #04AA6D;
+    position: fixed;  /* Fix the button to a position */
+    bottom: 20px;      /* Set the distance from the bottom */
+    right: 20px;       /* Set the distance from the right */
+    display: none;     /* Initially hide the button */
+    transition: opacity 0.5s ease-in-out; /* Add a smooth fade-in/out effect (optional) */
+  }
+  
+  #scroll-to-top:hover {
+    opacity: 0.8; /* Change opacity on hover (optional) */
+  }
+ 
