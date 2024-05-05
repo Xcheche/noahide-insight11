@@ -140,4 +140,5 @@ footer{
   #about{
     display: flex;
     margin: auto;
+    padding-top: 100px;
   }
