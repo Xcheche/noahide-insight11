@@ -96,6 +96,11 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
+.container #contact{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
 .jumbotron{
   
     border-radius: 25px 25px;
@@ -132,3 +137,7 @@ footer{
     opacity: 0.8; /* Change opacity on hover (optional) */
   }
  
+  #about{
+    display: flex;
+    margin: auto;
+  }
