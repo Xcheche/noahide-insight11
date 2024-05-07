@@ -47,3 +47,14 @@ function refreshPage() {
     location.reload();
 }
 hello()
+
+// video
+const elem = document.querySelector("video");
+
+elem.audioTracks.onaddtrack = (event) => {
+  trackEditor.addTrack(event.track);
+};
+
+elem.audioTracks.onremovetrack = (event) => {
+  trackEditor.removeTrack(event.track);
+};
