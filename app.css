@@ -38,7 +38,11 @@
 
 
 body{
-  animation: slide-up 10s;
+  /* animation */
+  animation: rotate 10s ;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  /* animation */
     background-image: url('./images/torahscroll.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -148,8 +152,20 @@ footer{
   }
   /* animation */
 
-  @keyframes slide-up{
+  /* @keyframes slide-up{
     0%{transform: translateY(40px); opacity: 0%;}
     100%{transform: translateY(0px); opacity: 100%;}
     70%{transform: translateY(-5px); opacity: 100%;}
-  }
+  } */
+
+  @keyframes rotate{
+    0%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(360deg);
+    }
+    70%{
+        transform: translateY(5px);
+    }
+}
