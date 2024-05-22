@@ -26,7 +26,11 @@
 .active {
   background-color: #04AA6D;
 }
-
+/* home */
+.navbar .active{
+  background-color: rgb(46, 122, 169);
+}
+/* end home */
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
 @media screen and (max-width: 500px) {
   .navbar a {
@@ -63,7 +67,10 @@ body{
 /* contact */
 #contact{
    
-    color: #45a049;
+    color: rgb(45, 121, 168);
+}
+.btn-primary{
+  color: lightskyblue;
 }
 
 .form{
@@ -84,17 +91,19 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #04AA6D;
+  text-align: center;
+  background-color: rgb(45, 121, 168);
   color: white;
   padding: 12px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 10px;
   cursor: pointer;
+ margin: 5px;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: black;
 }
 
 /* Add a background color and some padding around the form */
@@ -169,6 +178,7 @@ footer{
         transform: translateY(5px);
     }
 }
+
 
 
 
